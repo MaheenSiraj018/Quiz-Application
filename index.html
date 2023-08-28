@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <style>
+        *{
+            margin-bottom: 9px;
+            padding: 0;
+        }
+        .header{
+            text-align: center;
+            font-size: 50px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .inst{
+            font-size: 17px;
+            color: red;
+        }
+        .btn{
+            background-color:green;
+            height:40px;
+            width: 90px;
+            text-align: center;
+            border: 1px solid balck;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    
+    <h1 class="header">Quiz</h1>
+    <h5 class="inst">Instructions: Must attempt all the questions and all questions carry equal marks.</h5>
+    <form  id="myform">
+        <!-- Question 1  -->
+        <label for="q1">1. What is the result of addition of 10 and 27?</label><br>
+        <input type="radio" name="q1" value="10" id="10">
+        <label for="10">10</label><br>
+        <input type="radio" name="q1" value="20" id="20">
+        <label for="20">20</label><br>
+        <input type="radio" name="q1" value="30" id="30">
+        <label for="30">30</label><br>
+        <input type="radio" name="q1" value="37" id="37">
+        <label for="37">37</label><br>
+
+        <!-- Question 2  -->
+        <label for="q2">2. What is the result of product of 5 and 2?</label><br>
+        <input type="radio" name="q2" value="10">
+        <label for="10">10</label><br>
+        <input type="radio" name="q2" value="20">
+        <label for="20">20</label><br>
+        <input type="radio" name="q2" value="30">
+        <label for="30">30</label><br>
+        <input type="radio" name="q2" value="37">
+        <label for="37">37</label><br>
+
+        <!-- Question 3  -->
+        <label for="q3">3. What is the result of subtraction of 60 and 30?</label><br>
+        <input type="radio" name="q3" value="10">
+        <label for="10">10</label><br>
+        <input type="radio" name="q3" value="20">
+        <label for="20">20</label><br>
+        <input type="radio" name="q3" value="30">
+        <label for="30">30</label><br>
+        <input type="radio"  name="q3" value="37">
+        <label for="37">37</label><br>
+
+        <!-- Question 4  -->
+        <label for="q4">4. What is the result of product of 5 and 4?</label><br>
+        <input type="radio" name="q4" value="10">
+        <label for="10">10</label><br>
+        <input type="radio" name="q4" value="20">
+        <label for="20">20</label><br>
+        <input type="radio" name="q4" value="30">
+        <label for="30">30</label><br>
+        <input type="radio" name="q4" value="37">
+        <label for="37">37</label><br>
+
+        <!-- Question 5  -->
+        <label for="q5">5. What is the result of addition of 15 and 22?</label><br>
+        <input type="radio"  name="q5" value="10">
+        <label for="10">10</label><br>
+        <input type="radio" name="q5" value="20">
+        <label for="20">20</label><br>
+        <input type="radio" name="q5" value="30">
+        <label for="30">30</label><br>
+        <input type="radio"  name="q5" value="37">
+        <label for="37">37</label><br>
+
+        <!-- Question 6  -->
+        <label for="q6">5. What is the result of addition of 8 and 10?</label><br>
+        <input type="radio"  name="q6" value="10">
+        <label for="10">10</label><br>
+        <input type="radio" name="q6" value="18">
+        <label for="18">18</label><br>
+        <input type="radio" name="q6" value="30">
+        <label for="30">30</label><br>
+        <input type="radio"  name="q6" value="37">
+        <label for="37">37</label><br>
+
+        <!-- Question 7  -->
+        <label for="q7">5. What is the result of product of 9 and 4?</label><br>
+        <input type="radio"  name="q7" value="10">
+        <label for="10">10</label><br>
+        <input type="radio" name="q7" value="20">
+        <label for="20">20</label><br>
+        <input type="radio" name="q7" value="30">
+        <label for="30">30</label><br>
+        <input type="radio"  name="q7" value="36">
+        <label for="36">36</label><br>
+
+        <!-- Question 8  -->
+        <label for="q8">8. What is the result of division of 100 by 10?</label><br>
+        <input type="radio"  name="q8" value="10">
+        <label for="10">10</label><br>
+        <input type="radio" name="q8" value="20">
+        <label for="20">20</label><br>
+        <input type="radio" name="q8" value="30">
+        <label for="30">30</label><br>
+        <input type="radio"  name="q8" value="37">
+        <label for="37">37</label><br>
+
+        <!-- Question 9  -->
+        <label for="q5">9. What is the result of division of 900 by 30?</label><br>
+        <input type="radio"  name="q9" value="10">
+        <label for="10">10</label><br>
+        <input type="radio" name="q9" value="20">
+        <label for="20">20</label><br>
+        <input type="radio" name="q9" value="30">
+        <label for="30">30</label><br>
+        <input type="radio"  name="q9" value="37">
+        <label for="37">37</label><br>
+
+        <!-- Question 10  -->
+        <label for="q10">10. What is the result of addition of 15 and 5?</label><br>
+        <input type="radio"  name="q10" value="10">
+        <label for="10">10</label><br>
+        <input type="radio" name="q10" value="20">
+        <label for="20">20</label><br>
+        <input type="radio" name="q10" value="30">
+        <label for="30">30</label><br>
+        <input type="radio"  name="q10" value="37">
+        <label for="37">37</label><br>
+
+        <!-- submit button -->
+        <button type="button"  class="btn" onclick="display()">Submit</button>
+    </form>
+
+    <h4 id="result"></h4>
+    <script src="script.js"></script>
+    
+</body>
+</html>
